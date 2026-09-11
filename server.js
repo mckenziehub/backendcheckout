@@ -38,7 +38,7 @@ app.use(session({
 }));
 
 // Solo tu tienda de Shopify puede llamar a esta API.
-const ALLOWED_ORIGINS = ['https://tiendasolzen.myshopify.com'];
+const ALLOWED_ORIGINS = ['https://valleydreamsarg.myshopify.com'];
 
 const corsOptions = {
   origin(origin, callback) {
